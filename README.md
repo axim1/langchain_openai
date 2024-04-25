@@ -23,9 +23,17 @@ A step by step series of examples that tell you how to get a development env run
 ```bash
 git clone https://github.com/axim1/virai.git
 ```
+2. Add openai api key in the env file
+OPENAI_API_KEY='ApiKey'
 
-2. Start the application locally
+3. Start the application locally
 ```
 docker build -t my-flask-app .
 docker run -p 5000:5000 my-flask-app
 ```
+
+### Postman Example
+![alt text](image.png)
+
+
+There are some example files in "resume files" folder
